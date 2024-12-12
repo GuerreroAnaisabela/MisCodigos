@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="tpfinalparte2/tpfinalparte2/pantallas.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/tpfinal2.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/juego.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/reiniciar.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/estrellas.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/enemigos.js"></script>
+    <script src="tpfinalparte2/tpfinalparte2/personaje.js"></script>
+    
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="stylesheet" href="estilo.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"/>
+    <title>Sakura web</title>
+
+    <style>
+      body,h1,h2,h3,h4,h5,li,p,a {
+    font-family: 'chewy', sans-serif;
+  }
+    </style>
+
+
+    
+
+   
+  </head>
+
+  <body>
+   
+    <div> 
+        <header>
+           
+    
+
+    <div class="paper container">
+      <h1 id="arriba" style="color: rgb(255, 73, 146);">✨Sakura Star✨ </h1>
+      <p style="color: rgb(255, 0, 179);">Creado por Isa y Eyen</p>
+    </div>
+  </header>  
+    <nav> 
+        <ul><a href="#como jugar"> como jugar</a></ul> 
+        <ul><a href="#historia"> historia del juego</a></ul>
+        <ul><a href="#creadoras"> sobre las creadoras</a></ul>
+      </nav>
+
+
+<!--- Aventura-->
+<article>
+  <div class="sm-6 md-2"></div>
+  <div class="card" style="width: 110rem;">
+    <img src="img/1.jpeg" alt="n" width="800px">
+    <div class="sm-12 md-4"></div>
+    <div class="card-body">
+      <h5 class="card-subtitle">Aventura</h5>
+      <p class="card-text">¿Podrá Sakura conseguir la carta?</p>
+
+      <div class="row flex-spaces child-borders">
+        <label class="paper-btn margin" for="modal-1">Jugar</label>
+      </div>
+
+      <input class="modal-state" id="modal-1" type="checkbox">
+
+      <div class="modal modal-fullscreen">
+        <label class="modal-bg" for="modal-1"></label>
+        <div class="modal-body modal-full-content">
+          <label class="btn-close" for="modal-1">X</label>
+          <iframe src="tpfinalparte2/tpfinalparte1/index.html" frameborder="0"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+
+
+<!--- Minijuego-->
+<article>
+ <div class="sm-6 md-2"></div>
+ <div   class="card"  style=  "width: 110rem;">
+  <img src="img/4.jpeg" alt="e" width="800x">
+  
+  <div class="sm-12 md-4"></div>
+    <div class="card-body">
+      <h4 class="card-title"></h4>
+      <h5 class="card-subtitle">Minijuego</h5>
+      <p class="card-text">Consigue todas las estrellas... si es que lo logras! </p>
+
+      <div class="row flex-spaces child-borders">
+        <label class="paper-btn margin" for="modal-2">jugar</label>
+      </div>
+      <input class="modal-state" id="modal-2" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="modal-2"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-2">X</label>
+          <iframe src="tpfinalparte2/tpfinalparte2/index.html" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+</article>
+  
+
+<article>
+  <a href= "#arriba" class="paper-btn" > <img src="img/flecha.png" alt=""width="20px"></a>
+<div class="sm-12 md-4"></div>
+  <nav>   <div> <h3 id="como jugar" style="color: rgb(87, 103, 247);">¿Como Jugar?</h3>
+
+   
+
+    
+     <p>jugar el juego es muy simple, tenes que dentificar las teclas Izquierda y derecha del teclado, van a estar señalizadas por el icono de unas flechas que apuntan hacia esa direccion. luego tenes que estar atento al comienzo del juego, cuando empiezen a caer los objetos tienes que esquivar las bombas y atrapar las estrellas. cuando consigas obtener 20 estrellas vas a lograr  el objetivo del juego y  te aparecera una pantalla de felicitacion que indica tu vistoria; por el contrario si pierdes tus tres vidas,que  estan señaladas es la pantalla por una imagen de corazon y junto a este un indicador de la vida que tienes, una pantalla de derrota. </p>
+
+     <div class="imagenes-contenedor">
+     <img src="img/perdiste.jpeg" alt="" width="400px"> <img src="img/Ganar.jpg" alt=""width="400px">
+    </div>
+</div>
+
+</nav>
+  </article>
+         
+        
+       <article> 
+        <div class="celda">    
+        <h3 id="historia" style="color: rgb(255, 235, 16);">¿De que trata el Juego? </h3>
+
+     <a href= "#arriba" class="paper-btn" > <img src="img/flecha.png" alt=""width="20px"></a>
+
+        <p>
+        El juego esta basado en la animacion japonesa llamada Sakura card captor, en la que una niña tiene la tarea de juntar las cartas magicas  que perdio. en el juego sakura tiene que atrapar las estrellas que caen para poder atrapar la carta, ya que esta provoco que todo los habitantes no magicos de la ciudad quedara profundamente dormidos, y pra que estos puedan despertar es necesario conseguir la carta. 
+      </p>
+    </article>
+
+        <article>
+           
+            <h3 id="creadoras" style="color: rgb(255, 235, 16);">Informacion de las Creadoras</h3>
+          
+           <a href= "#arriba"class="paper-btn"> <img src="img/flecha.png" alt="" width="20px"></a>
+           
+           <p>Anaisabela Guerrero</p>
+           <li>Edad: 20 años</li>
+           <li> Nacionalidad: venezolana</li>
+           <li>Carrera: Diseño de Multimedial</li>
+           <li> Encargada de: programar e ilutrar</li>
+
+          <p>Eyen Lucia Gialleonardo</p>
+    <li>Edad: 21 años</li>
+    <li> Nacionalidad: Argentina</li>
+    <li>Carrera: Diseño de Multimedial</li>
+    <li> Encargada de: programar e ilutrar</li>
+        </div class="celda">   
+
+    </article>
+        
+            
+       
+    <footer><p>Muchas gracias por ver</p></footer>
+           
+        
+    </div>
+          
+  </body>
+
+</html>

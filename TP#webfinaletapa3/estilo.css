@@ -1,0 +1,103 @@
+
+:root {
+    --primary-color: blueviolet;
+    --secondary-color: rgb(255, 182, 212);
+    --hover-bg-color: rgb(252, 208, 254);
+    --nav-text-color: rgb(255, 0, 128);
+    --nav-bg-color: rgb(255, 48, 144);
+}
+
+
+body, h1, ul, li {
+    padding: 10px;
+    margin: 10px;
+}
+
+body {
+    border-bottom: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.imagenes-contenedor {
+    display: flex;
+    justify-content: center; /* Centra las imágenes horizontalmente */
+    gap: 10px; /* Espaciado entre las imágenes */
+}
+
+.imagenes-contenedor img {
+    width: 300px; /* Tamaño de las imágenes (puedes ajustarlo) */
+    height: auto; /* Mantiene las proporciones */
+    border-radius: 5px; /* Opcional: bordes redondeados */
+}
+
+h3 {
+    color: var(--primary-color);
+}
+
+div {
+    border-bottom: var(--primary-color);
+    width: 800px;
+    max-width: 95%;
+    margin: 0 auto;
+    color: var(--primary-color);
+}
+
+header {
+    background-color: rgb(255, 148, 223);
+    height: 500px;
+    padding-top: 50px;
+}
+
+article {
+    border-bottom: var(--primary-color);
+    background-color: rgb(255, 137, 220);
+}
+
+.celda {
+    border-bottom: var(--primary-color);
+    gap: 400px;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+footer h3 {
+    color: var(--primary-color);
+}
+
+footer {
+    background-color: rgb(254, 154, 219);
+    padding: 50px;
+}
+
+nav li {
+    display: inline-flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-text-color);
+    background-color: var(--nav-bg-color);
+    padding: 13px;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: var(--primary-color);
+    background-color: var(--hover-bg-color);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+    header {
+        height: auto;
+        padding-top: 20px;
+    }
+}
